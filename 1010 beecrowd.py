@@ -1,0 +1,12 @@
+print("CALCULE O VALOR TOTAL DA SUA COMPRA")
+linha = input(print("insira: o codigo da peca, a quantidade e o valor. ex(12 2 3.75)")).split()
+linha2 = input(print("insira: o codigo da segunda peca, a quantidade e o valor. ex(10 1 4)")).split()
+peca1 = (linha[1])
+valor1 = (linha[2])
+cod1 = (linha[0])
+peca2 = (linha2[1])
+valor2 = (linha2[2])
+cod2 = (linha2[0])
+total = (int(peca1) * float(valor1)) + (int(peca2) * float(valor2))
+
+print("VALOR A PAGAR: R$ %0.2f" %total)
